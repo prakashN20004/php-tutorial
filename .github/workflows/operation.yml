@@ -1,0 +1,10 @@
+name: operation
+on: push
+
+jobs:
+  Operation:
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: types of operations
+          run: echo "Total is 100.";
